@@ -378,7 +378,6 @@
   <block id="cee631121c2ec9232f3a2f028ad5c89b" category="cell">500</block>
   <block id="9dba50d3a2c2f26daddbf9d144c49772" category="cell">Mindestgröße</block>
   <block id="e2fca4ed20d01d1eda8a934cf81cb194" category="cell">20 MB</block>
-  <block id="309524b9e1ef1d7d7d905c7cb1d358e9" category="cell">100 TB</block>
   <block id="f870c45bb6c4b8bad8f13c8dc3439f98" category="cell">*Qtrees*</block>
   <block id="8032f0290a7c4e00a6da3a195523a94e" category="cell">Maximale Anzahl pro FlexVol Volume</block>
   <block id="38de34e4b49b8adfeb2c678818915204" category="cell">4,995</block>
@@ -515,7 +514,6 @@ HA-Paare: 18 in einem Knoten ^1^</block>
   <block id="d5b5d1eda2a2c0d060f59094000e6aea" category="paragraph">Da zum einen eine private IP-Adresse erforderlich ist, wird die Anzahl der zusätzlichen, von Ihnen erstellten Storage VMs begrenzt. Die einzige Ausnahme ist ein HA-Paar in mehreren Verfügbarkeitszonen. In diesem Fall ist die IP-Adresse für die Management LIF eine _Floating_ IP-Adresse, somit wird sie nicht gegen die _private_ IP-Beschränkung angerechnet.</block>
   <block id="4f9154c68af93dc525373bf1a9c2edce" category="section-title">Datei- und Volume-Einschränkungen</block>
   <block id="8e79313a5b6fb51ae3e76e64449c9f1d" category="cell">Hierarchische Klontiefe ^1^</block>
-  <block id="87338ad799bddd85c6298bb9270dc27f" category="cell">100 tib</block>
   <block id="16b3ee4e5301a5f3f5b55816b3906b83" category="summary">In diesen Versionshinweisen werden neue Funktionen, Einschränkungen und bekannte Probleme bei Cloud Volumes ONTAP 9.12.1 beschrieben.</block>
   <block id="f27b112d1527e5f29f0e8f510d779a5e" category="doc">Versionshinweise zu Cloud Volumes ONTAP 9.12.1</block>
   <block id="fa082ab1a05e05550971e6e5f583dcfe" category="summary">Verschiedene Cloud Volumes ONTAP Konfigurationen werden in AWS unterstützt.</block>
@@ -716,4 +714,11 @@ HA-Paare: 18 in einem Knoten ^1^</block>
   <block id="fade75ceec599e990625d8fe892dc7d0" category="paragraph">Der 9.12.1 P8-Patch ist jetzt für Cloud Volumes ONTAP für alle Cloud-Provider verfügbar. BlueXP fordert Sie auf, Ihre vorhandenen Systeme auf diese Patch-Version zu aktualisieren.</block>
   <block id="a5757ef07045a814bda504c5b48177c6" category="inline-link-macro">Zeigen Sie die Liste der im P8-Patch fixierten Fehler an</block>
   <block id="256a78f661aac1037fd4538bac2c35e2" category="paragraph"><block ref="eeacaebd27be6cafb953a21f643315af" category="inline-link-macro-rx"></block> (Anmeldung auf der NetApp Support Site erforderlich).</block>
+  <block id="64063abe39aac990beb215f4e4df9f92" category="cell">Maximale Größe ^2^</block>
+  <block id="d0bb632fcdb31cf3c729c1c59f826d4f" category="cell">128 TB</block>
+  <block id="95f8ab07e6196c13df81b9123cb42b19" category="cell">Maximale Größe ^3^</block>
+  <block id="4dd4655034851cefb46869bef690cc22" category="cell">300 tib</block>
+  <block id="ae809759e1518d5c4c2019b9c03f15a1" category="list-text">Ab ONTAP 9.12.1P2 ist das Limit bei 128 TB. In ONTAP 9.11.1 und früheren Versionen beträgt die Grenze 16 TB.</block>
+  <block id="363a2a1557561115c9aab27b368391e0" category="list-text">Die Erstellung von FlexVol Volumes bis zur maximalen Größe von 300 tib wird mit System Manager ab Cloud Volumes ONTAP 9.12.1 P2 unterstützt.</block>
+  <block id="ea8e9cb87ad8076ed2bdd562222045c8" category="cell">300 TB</block>
 </blocks>
