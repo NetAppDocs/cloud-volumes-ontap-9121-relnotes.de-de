@@ -515,7 +515,6 @@ HA-Paare: 18 in einem Knoten ^1^</block>
   <block id="4f9154c68af93dc525373bf1a9c2edce" category="section-title">Datei- und Volume-Einschränkungen</block>
   <block id="8e79313a5b6fb51ae3e76e64449c9f1d" category="cell">Hierarchische Klontiefe ^1^</block>
   <block id="16b3ee4e5301a5f3f5b55816b3906b83" category="summary">In diesen Versionshinweisen werden neue Funktionen, Einschränkungen und bekannte Probleme bei Cloud Volumes ONTAP 9.12.1 beschrieben.</block>
-  <block id="f27b112d1527e5f29f0e8f510d779a5e" category="doc">Versionshinweise zu Cloud Volumes ONTAP 9.12.1</block>
   <block id="fa082ab1a05e05550971e6e5f583dcfe" category="summary">Verschiedene Cloud Volumes ONTAP Konfigurationen werden in AWS unterstützt.</block>
   <block id="8bb0da4c260f565e0c8162ea9c2b7caa" category="doc">Unterstützte Konfigurationen in AWS</block>
   <block id="7db0f9060b8b2def82346add7b8e89c0" category="section-title">Unterstützte Anzahl an Nodes</block>
@@ -693,7 +692,6 @@ HA-Paare: 18 in einem Knoten ^1^</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp Community</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP-Blog</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">Cloud-Webinare</block>
-  <block id="da38098873cb3db962a9491ab33ff93d" category="sidebar">Versionshinweise zu Hause</block>
   <block id="4847e034bb0a55fcbc8a3380d6a3ab80" category="sidebar">AWS</block>
   <block id="3a580f142203677f1f0bc30898f63f53" category="sidebar">Azure</block>
   <block id="482723983a4f2af954e36ff41e567451" category="sidebar">Bekannte Einschränkungen</block>
@@ -745,4 +743,7 @@ HA-Paare: 18 in einem Knoten ^1^</block>
   <block id="2736491b0d91473289e42f092b1bf7a8" category="paragraph">Der 9.12.1 P14-Patch ist jetzt für Cloud Volumes ONTAP für alle Cloud-Provider verfügbar. BlueXP fordert Sie auf, Ihre vorhandenen Systeme auf diese Patch-Version zu aktualisieren.</block>
   <block id="c476446cae3f83bea1b304ddc122e040" category="inline-link-macro">Sehen Sie sich die Liste der Fehler an, die im P14-Patch behoben wurden</block>
   <block id="7f6bf3f591ebcac8172644473a861a3f" category="paragraph"><block ref="097760c954c4bdbaccfb64f476a75d11" category="inline-link-macro-rx"></block> (Anmeldung auf der NetApp Support-Website erforderlich).</block>
+  <block id="4456e8c89e1ffcba3d0176f270fe18fb" category="doc">Versionshinweise zu Cloud Volumes ONTAP 9.12.1</block>
+  <block id="c3647f40e3574e0e6f49e20c19135bfa" category="section-title">Beschränkungen bei der Verwendung von Azure VM-Erweiterungen</block>
+  <block id="9d167ed7d52d81da8d83590ec3b5a4af" category="paragraph">Cloud Volumes ONTAP unterstützt in einer Implementierung keine Erweiterungen für Azure Virtual Machine (VM) und VM-Applikationen. Die Verwendung von Cloud Volumes ONTAP in Azure mit VM-Erweiterungen führt zu Verzögerungen bei Operationen, und NetApp empfiehlt, diese zu vermeiden.</block>
 </blocks>
