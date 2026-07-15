@@ -20,6 +20,7 @@ Zusätzliche Funktionen und Verbesserungen sind auch in den neuesten Versionen v
 
 
 
+[[9-12-1-p14-29-august-2024]]
 == 9.12.1 P14 (29. August 2024)
 
 Der 9.12.1 P14-Patch ist jetzt für Cloud Volumes ONTAP für alle Cloud-Provider verfügbar. BlueXP fordert Sie auf, Ihre vorhandenen Systeme auf diese Patch-Version zu aktualisieren.
@@ -28,6 +29,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-12-1-p13-8-august-2024]]
 == 9.12.1 P13 (8. August 2024)
 
 Der 9.12.1 P13-Patch ist jetzt für Cloud Volumes ONTAP für alle Cloud-Provider verfügbar. BlueXP fordert Sie auf, Ihre vorhandenen Systeme auf diese Patch-Version zu aktualisieren.
@@ -36,6 +38,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-12-1-p12-22-may-2024]]
 == 9.12.1 P12 (22. Mai 2024)
 
 Der 9.12.1 P12-Patch ist jetzt für Cloud Volumes ONTAP für alle Cloud-Provider verfügbar. BlueXP fordert Sie auf, Ihre vorhandenen Systeme auf diese Patch-Version zu aktualisieren.
@@ -44,6 +47,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-12-1-p11-22-april-2024]]
 == 9.12.1 P11 (22. April 2024)
 
 Der 9.12.1 P11-Patch ist jetzt für Cloud Volumes ONTAP für alle Cloud-Provider verfügbar. BlueXP fordert Sie auf, Ihre vorhandenen Systeme auf diese Patch-Version zu aktualisieren.
@@ -52,6 +56,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-12-1-p10-22-april-2024]]
 == 9.12.1 P10 (22. April 2024)
 
 Der 9.12.1 P10-Patch ist jetzt für Cloud Volumes ONTAP für alle Cloud-Provider verfügbar. BlueXP fordert Sie auf, Ihre vorhandenen Systeme auf diese Patch-Version zu aktualisieren.
@@ -60,6 +65,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-12-1-p9-5-february-2024]]
 == 9.12.1 P9 (5. Februar 2024)
 
 Der 9.12.1 P9-Patch ist jetzt für Cloud Volumes ONTAP für alle Cloud-Provider verfügbar. BlueXP fordert Sie auf, Ihre vorhandenen Systeme auf diese Patch-Version zu aktualisieren.
@@ -68,6 +74,7 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-12-1-p8-8-december-2023]]
 == 9.12.1 P8 (8. Dezember 2023)
 
 Der 9.12.1 P8-Patch ist jetzt für Cloud Volumes ONTAP für alle Cloud-Provider verfügbar. BlueXP fordert Sie auf, Ihre vorhandenen Systeme auf diese Patch-Version zu aktualisieren.
@@ -76,18 +83,21 @@ link:https://mysupport.netapp.com/site/products/all/details/cloud-volumes-ontap/
 
 
 
+[[9-12-1-ga-9-february-2023]]
 == 9.12.1 GA (9. Februar 2023)
 
 Das GA-Release (General Availability, GA) von Cloud Volumes ONTAP 9.12.1 ist nun in AWS, Azure und Google Cloud verfügbar. Die GA-Version enthält Bug Fixes.
 
 
 
+[[9-12-1-rc1-8-december-2022]]
 == 9.12.1 RC1 (8. Dezember 2022)
 
 Cloud Volumes ONTAP 9.12.1 Release Candidate 1 ist jetzt in AWS, Azure und Google Cloud verfügbar. Diese Version umfasst die folgenden neuen Funktionen und Verbesserungen.
 
 
 
+[[ontap-s3-license-in-gcp]]
 === ONTAP S3 Lizenz in GCP
 
 Eine ONTAP S3 Lizenz ist jetzt auf neuen und vorhandenen Cloud Volumes ONTAP Systemen mit Version 9.12.1 oder höher in der Google Cloud Platform enthalten.
@@ -96,6 +106,7 @@ https://docs.netapp.com/us-en/ontap/object-storage-management/index.html["Lesen 
 
 
 
+[[nvme-tcp-support-in-cloud-volumes-ontap]]
 === Unterstützung von NVMe-TCP in Cloud Volumes ONTAP
 
 NVMe-TCP wird für Cloud-Provider unterstützt, wenn Sie Cloud Volumes ONTAP Version 9.12.1 oder höher verwenden. BlueXP bietet keine Managementfunktionen für NVMe-TCP.
@@ -104,6 +115,7 @@ Weitere Informationen zum Konfigurieren von NVMe über ONTAP finden Sie unter li
 
 
 
+[[azure-ha-in-a-single-availability-zone-with-shared-managed-disks]]
 === Azure HA in einer einzelnen Verfügbarkeitszone mit gemeinsam genutzten, gemanagten Festplatten
 
 Sie können jetzt eine Cloud Volumes ONTAP HA-Konfiguration mit lokalem Microsoft Azure Storage (LRS) implementieren, der auf gemeinsam genutzten, gemanagten Festplatten ausgeführt wird. Durch lokalen redundanten Storage werden Daten dreimal in einem einzelnen Datacenter in derselben Region repliziert.
@@ -114,6 +126,7 @@ Wenn Sie ein neues HA-Paar in Azure in einer einzelnen Verfügbarkeitszone imple
 
 
 
+[[azure-ha-in-multiple-availability-zones-with-shared-managed-disks]]
 === Azure HA in mehreren Verfügbarkeitszonen mit gemeinsam genutzten Festplatten
 
 Jetzt können Sie eine Cloud Volumes ONTAP HA-Konfiguration mit Azure verschiedene Verfügbarkeitszonen innerhalb einer Region implementieren. Die neue Konfiguration schützt vor Datacenter-Ausfällen und erhält die Applikationsverfügbarkeit durch den Einsatz von ZRS (Shared Managed Disks) mit Azure Zone-Redundant Storage (ZRS). Diese Funktion ist derzeit nur in den Regionen West-USA 2, Westeuropa, Nordeuropa und Frankreich Central verfügbar.
@@ -126,12 +139,14 @@ Weitere Informationen zu zonenredundantem Speicher für verwaltete Festplatten f
 
 
 
+[[upgrade-notes]]
 == Upgrade-Hinweise
 
 Lesen Sie diese Hinweise, um mehr über das Upgrade auf diese Version zu erfahren.
 
 
 
+[[how-to-upgrade]]
 === Upgrade-Tipps
 
 Upgrades von Cloud Volumes ONTAP müssen von BlueXP abgeschlossen werden. Sie sollten kein Cloud Volumes ONTAP-Upgrade mit System Manager oder der CLI durchführen. Dies kann die Stabilität des Systems beeinträchtigen.
@@ -140,12 +155,14 @@ http://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-updating-ontap-clou
 
 
 
+[[supported-upgrade-path]]
 === Unterstützter Upgrade-Pfad
 
 Sie können ein Upgrade von Version 9.12.0 und 9.11.1 auf Cloud Volumes ONTAP 9.12.1 durchführen. Unter BlueXP werden Sie aufgefordert, qualifizierte Cloud Volumes ONTAP-Systeme auf diese Version zu aktualisieren.
 
 
 
+[[required-version-of-the-connector]]
 === Erforderliche Version des Connectors
 
 Der BlueXP-Connector muss Version 3.9.24 oder höher ausführen, um neue Cloud Volumes ONTAP 9.12.1-Systeme bereitzustellen und bestehende Systeme auf 9.12.1 zu aktualisieren.
@@ -155,6 +172,7 @@ TIP: Automatische Upgrades des Connectors sind standardmäßig aktiviert, sodass
 
 
 
+[[downtime]]
 === Ausfallzeit
 
 * Das Upgrade eines einzelnen Node-Systems nimmt das System für bis zu 25 Minuten offline, während dieser I/O-Unterbrechung erfolgt.
@@ -163,6 +181,7 @@ TIP: Automatische Upgrades des Connectors sind standardmäßig aktiviert, sodass
 
 
 
+[[upgrades-in-aws-with-c4-m4-and-r4-ec2-instance-types]]
 === Upgrades in AWS mit EC2-Instanztypen c4, m4 und R4
 
 In AWS werden die EC2-Instanztypen c4, m4 und R4 von neuen Cloud Volumes ONTAP-Implementierungen nicht mehr unterstützt. Wenn Sie ein System besitzen, das auf einem Instanztyp c4, m4 oder r4 ausgeführt wird, müssen Sie in der instanzfamilie c5, m5 oder r5 zu einem Instanztyp wechseln. Wenn Sie den Instanztyp nicht ändern können, müssen Sie vor dem Upgrade die erweiterte Netzwerkumgebung aktivieren.
